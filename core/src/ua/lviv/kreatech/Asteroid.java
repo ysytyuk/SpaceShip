@@ -31,7 +31,7 @@ public class Asteroid {
     }
 
     public void render(SpriteBatch batch){
-        batch.draw(texture, position.x, position.y, 28, 24, 56, 48, 1, 1, angle, 0, 0, 56, 48, false, false);
+        batch.draw(texture, position.x, position.y, 33, 30, 66, 60, 1, 1, angle, 0, 0, 66, 60, false, false);
     }
 
     public void update(){
