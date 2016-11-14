@@ -132,4 +132,8 @@ public class Hero {
         blaster.dispose();
     }
 
+    public void setPosition(float x, float y) {
+        position.x = x;
+        position.y = y;
+    }
 }

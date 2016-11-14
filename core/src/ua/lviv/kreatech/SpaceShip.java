@@ -159,6 +159,12 @@ public class SpaceShip extends ApplicationAdapter {
 
 	}
 
+	public void pause(){
+		this.score = score;
+		hero.setLife(hero.getLife());
+		hero.setPosition(hero.getPosition().x, hero.getPosition().y);
+	}
+
 
 	@Override
 	public void dispose () {
